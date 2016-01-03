@@ -13,6 +13,7 @@
 		85CF88291C38B73B00E61B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CF88281C38B73B00E61B49 /* Assets.xcassets */; };
 		85CF882C1C38B73B00E61B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CF882A1C38B73B00E61B49 /* LaunchScreen.storyboard */; };
 		85CF88341C38C08400E61B49 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 85CF88331C38C08400E61B49 /* pokemon.csv */; };
+		85CF88371C38C15500E61B49 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CF88361C38C15500E61B49 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		85CF882B1C38B73B00E61B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85CF882D1C38B73B00E61B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85CF88331C38C08400E61B49 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		85CF88361C38C15500E61B49 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		85CF88201C38B73B00E61B49 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				85CF88351C38C14600E61B49 /* Model */,
 				85CF88211C38B73B00E61B49 /* AppDelegate.swift */,
 				85CF88231C38B73B00E61B49 /* ViewController.swift */,
 				85CF88251C38B73B00E61B49 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				85CF882D1C38B73B00E61B49 /* Info.plist */,
 			);
 			path = pokedex;
+			sourceTree = "<group>";
+		};
+		85CF88351C38C14600E61B49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				85CF88361C38C15500E61B49 /* Pokemon.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			files = (
 				85CF88241C38B73B00E61B49 /* ViewController.swift in Sources */,
 				85CF88221C38B73B00E61B49 /* AppDelegate.swift in Sources */,
+				85CF88371C38C15500E61B49 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
